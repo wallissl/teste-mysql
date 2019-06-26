@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+
+.conteudo {
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    display:flex;
+    justify-content: flex-start;
+    
+}
+
+h1 {
+    color:white;
+    font-size: 3em;
+    margin-left:15px;
+    
+}
+
+p {
+    color:#fff;
+    font-size:1.3em;
+    text-align:center;
+}
+
+form {
+    margin-left:20px;
+    margin-top:20px;    
+}
+
+input[type=email] {
+    width:35vw;
+    height: 30px;    
+}
+
+button {
+    padding: 9px 30px;
+    background-color:#f1c38feb;
+    border: 0px;
+    color:white;
+}
